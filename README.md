@@ -78,11 +78,11 @@ facemask_ip_camera.py
 - **IP camera:** `python facemask_ip_camera.py --input "rstp://192.168.9.1/"`
  
  ## Labels
-| Label id | Label | Description |
+| Label id | Label | Description | Box Color |
 | --- | --- | --- |
-| 0 | NWM | Not Wearing a Mask |
-| 1 | WM  | Wearing a Mask |
-| 2 | IWM | Improperly Waring a Mask |
+| 0 | NWM | Not Wearing a Mask | Red |
+| 1 | WM  | Wearing a Mask | Green |
+| 2 | IWM | Improperly Waring a Mask | Yellow |
 
 ## Tools and libraries used
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
