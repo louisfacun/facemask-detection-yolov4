@@ -69,7 +69,7 @@ facemask_video_file.py
 facemask_ip_camera.py
 ```
 
-## Running the inference from different sources
+## Running the inference from different source
 
 - **Single image:** `python facemask_image.py --input "sample_images_folder/image1.jpg"` 
 
@@ -89,6 +89,9 @@ facemask_ip_camera.py
 ## Tools and libraries used
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 - **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
+
+## Try training and inference in Google Colab
+- link
 
 ## Deployment
 TODO
