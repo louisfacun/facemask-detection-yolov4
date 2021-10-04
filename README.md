@@ -79,7 +79,7 @@ facemask_ip_camera.py
  
  ## Labels
 | Label id | Label | Description | Box Color |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 0 | NWM | Not Wearing a Mask | Red |
 | 1 | WM  | Wearing a Mask | Green |
 | 2 | IWM | Improperly Waring a Mask | Yellow |
