@@ -9,8 +9,8 @@
 - **OpenCV**
 
 ### Data preprocessing:
-- `augmentation` **Albumentation:** https://albumentations.ai/docs/getting_started/installation/
-- `annotation` **LabelImg:**" https://github.com/tzutalin/labelImg
+- **Albumentation:** `augmentation` https://albumentations.ai/docs/getting_started/installation/
+- **LabelImg:**" `annotation` https://github.com/tzutalin/labelImg
 
 
 ## Data preprocessing
