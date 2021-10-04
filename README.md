@@ -12,45 +12,6 @@ Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-maco
 If you have successfully installed the requirements above you can now try [Running model inference](#running-model-inference).
 
 
-## Tools/libraries
-### Data preprocessing:
-- **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
-
-### Data preparation:
-- **LabelImg:**" `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
-
-
-# Gather and repare your dataset, train and evaluate your own face mask detection model (guide)
-**Decide classes/labels**
-| Label id | Label | Description |
-| --- | --- | --- |
-| 0 | NWM | Not wearing a mask |
-| 1 | WM  | Wearing a mask |
-| 2 | IWM | Improperly wearing a mask |
-
-## 1. Data Gathering
- Gather dataset (images/videos)
--Download images from search engine (Google, Bing etc.).
--Model your own images from friends.
--Gather and capture images (or from videos) from public places.
-
-## 2. Data Preprocessing/Preparation
-### Image preprocessing
-1. Resizing
-2. 
-
-### Data augmentation
-- To try other augmentations, check https://albumentations-demo.herokuapp.com, modify `apply_image_augmentations.py` based on your options and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
-- To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
-```
-Option 1: 100% Horizontal Flip
-Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
-Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random Noise
-```
-## How to train a model
-
-## How to evaluate a model
-
 # Running model inference
 ### Prepare the following files:
 `.weights` `.cfg` `obj.data` `obj.names`
@@ -92,3 +53,46 @@ or your own label similar to `classes.txt`
 - **Inference  from a video file:** `python yolov4_video_file.py --input "sample_video_folder/video.mp4"` 
 
 - **Inference from an ip camera:** `python yolov4_ip_camera.py --input "rstp://192.168.9.1/"` 
+
+
+
+# Gather and repare your dataset, train and evaluate your own face mask detection model (guide)
+
+## Tools/libraries
+### Data preparation:
+
+- **LabelImg:**" `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
+### Data preprocessing:
+- **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
+
+
+**Decide classes/labels**
+| Label id | Label | Description |
+| --- | --- | --- |
+| 0 | NWM | Not wearing a mask |
+| 1 | WM  | Wearing a mask |
+| 2 | IWM | Improperly wearing a mask |
+
+## 1. Data Gathering
+ Gather dataset (images/videos)
+-Download images from search engine (Google, Bing etc.).
+-Model your own images from friends.
+-Gather and capture images (or from videos) from public places.
+
+## 2. Data Preprocessing/Preparation
+### Image preprocessing
+1. Resizing
+2. 
+
+### Data augmentation
+- To try other augmentations, check https://albumentations-demo.herokuapp.com, modify `apply_image_augmentations.py` based on your options and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
+- To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
+```
+Option 1: 100% Horizontal Flip
+Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
+Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random Noise
+```
+## How to train a model
+
+## How to evaluate a model
+
