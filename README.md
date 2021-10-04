@@ -27,7 +27,7 @@ Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random N
 
 # Running model inference
 ### Prepare the following files:
-`.weights` `.cfg` `obj.data`
+`.weights` `.cfg` `obj.data` `obj.names`
 
 ### To use our files, download the following:
 1. Trained model: [yolov4.weights](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
