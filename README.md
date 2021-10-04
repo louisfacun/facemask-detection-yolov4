@@ -10,6 +10,12 @@ include links of:
 -albumentation
 -labelImg
 
+## Data gathering
 
-# Data augmentation
+## Data preprocessing
+### Data augmentation
 `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
+
+## Model training
+
+## Model evaluation
