@@ -66,7 +66,7 @@ or your own label similar to `classes.txt`
 - **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
 
 
-**Decide classes/labels**
+**Decide on your classes/labels**
 | Label id | Label | Description |
 | --- | --- | --- |
 | 0 | NWM | Not wearing a mask |
@@ -93,6 +93,7 @@ Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
 Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random Noise
 ```
 ## How to train a model
+s
 
 ## How to evaluate a model
-
+s
