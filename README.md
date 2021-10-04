@@ -1,16 +1,17 @@
 # Wearing of face mask detection using YOLOv4
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
-This repository only contains the specific file used in our undergraduate research. 
-yolov4 codes are not included in this repository
+`Please note that this repository only contains the specific files used in this research.`
+## Requirements:
+### Training and inference:
+- **Python 3:**
+- **YOLOv4:**
+- **OpenCV**
 
-include links of:
--yolov4
--darknet
--albumentation
--labelImg
+### Data preprocessing:
+- `augmentation` **Albumentation:** https://albumentations.ai/docs/getting_started/installation/
+- `annotation` **LabelImg:**" https://github.com/tzutalin/labelImg
 
-## Data gathering
 
 ## Data preprocessing
 ### Data augmentation
