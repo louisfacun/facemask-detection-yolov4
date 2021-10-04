@@ -20,8 +20,26 @@ If you have successfully installed the requirements above you can now try [Runni
 - **LabelImg:**" `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 
 
+# Gather and repare your dataset, train and evaluate your own face mask detection model (guide)
+**Decide classes/labels**
+| Label id | Label | Description |
+| --- | --- | --- |
+| 0 | NWM | Not wearing a mask |
+| 1 | WM  | Wearing a mask |
+| 2 | IWM | Improperly wearing a mask |
 
-### How to do data augmentation
+## 1. Data Gathering
+ Gather dataset (images/videos)
+-Download images from search engine (Google, Bing etc.).
+-Model your own images from friends.
+-Gather and capture images (or from videos) from public places.
+
+## 2. Data Preprocessing/Preparation
+### Image preprocessing
+1. Resizing
+2. 
+
+### Data augmentation
 - To try other augmentations, check https://albumentations-demo.herokuapp.com, modify `apply_image_augmentations.py` based on your options and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
 - To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
 ```
