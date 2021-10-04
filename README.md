@@ -16,9 +16,9 @@ Make sure that the requirements above are successfully installed. You can now tr
 To run YOLOv4 inference, you need these following files:
 `facemask.weights` `facemask.cfg` `obj.data` `obj.names`
 
-**To use our files, you can download them in the following:**
-1. **facemask.weights**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
-2. **facemask.cfg**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
+**Required files for inference:**
+1. **[facemask.weights](https://github.com/lpfacun/facemask-detection-yolov4/releases/download/model/facemask.weights)** (244 MB)
+2. **facemask.cfg** (check repository)
 - higher size = slower inference but more accurate
 - lower size = faster inference but less accurate
 ```ini
@@ -30,15 +30,15 @@ height=640
 .
 .
 ```
-3. **obj.data** [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
+3. **facemask.data** (check repository)
 ```ini
 classes = 3 # important
 train = data/train.txt # not important
 valid = data/test.txt # not important
-names = obj.names # important
+names = facemask.names # important
 backup = backup/ # not important
 ```
-4. **obj.names** [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
+4. **facemask.names** (check repository)
 ```
 NWM
 WM
@@ -46,7 +46,7 @@ IWM
 ```
 
 ## Directory
-Put `facemask.weights` `facemask.cfg` `obj.data` `obj.names` in the same folder of YOLOv4. 
+Put `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names` in the same folder of YOLOv4. 
 ```
 .
 .
@@ -55,8 +55,8 @@ darknet
 .
 facemask.weights
 facemas.cfg
-obj.data
-obj.names
+facemask.data
+facemask.names
 facemask_image.py
 facemask_webcam.py
 facemask_video_file.py
