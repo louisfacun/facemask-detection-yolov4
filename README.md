@@ -2,8 +2,7 @@
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
 `Please note that this repository only contains the specific files used in this research.`
-## Requirements:
-### Training and inference (either Windows or Linux):
+## Requirements for  training and inference (either Windows or Linux):
 Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
 - **Python 3:** https://www.python.org/downloads/
 - **YOLOv4 (darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**).
@@ -12,14 +11,17 @@ Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-maco
 - **CUDA supported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`).
 If you have successfully installed the requirements above you can now try [Running model inference](#running-model-inference).
 
+
+## Tools/libraries
 ### Data preprocessing:
-- **Albumentations:** `augmentation` https://albumentations.ai/docs/getting_started/installation/
-- **LabelImg:**" `annotation` https://github.com/tzutalin/labelImg
+- **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
+
+### Data preparation:
+- **LabelImg:**" `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 
 
-## Data preprocessing
 
-### Data augmentation
+### How to do data augmentation
 - To try other augmentations, check https://albumentations-demo.herokuapp.com, modify `apply_image_augmentations.py` based on your options and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
 - To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
 ```
@@ -27,9 +29,9 @@ Option 1: 100% Horizontal Flip
 Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
 Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random Noise
 ```
-## Model training
+## How to train a model
 
-## Model evaluation
+## How to evaluate a model
 
 # Running model inference
 ### Prepare the following files:
