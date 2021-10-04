@@ -48,6 +48,8 @@ IWM
 ```
 or your own label similar to `classes.txt`
 
+### Inference from different source
+
 - **Inference from a single image:** `python yolov4_image.py --input "sample_images_folder/image1.jpg"` 
 
 - **Inference from a pc webcam:** `python yolov4_webcam.py`
