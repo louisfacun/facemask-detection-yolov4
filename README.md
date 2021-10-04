@@ -6,11 +6,10 @@
 ### Training and inference (either Windows or Linux):
 Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
 - **Python 3:** https://www.python.org/downloads/
-- **YOLOv4(darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**).
+- **YOLOv4 (darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**).
 - **OpenCV** https://opencv.org/releases/ (can be installed with `GPU support` for faster calculations, not required but **recommended**).
 - **CUDA** https://developer.nvidia.com/cuda-zone (if installing the requirements above with `GPU support`).
 - **CUDA supported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`).
-- 
 If you have successfully installed the requirements above you can now try [Running model inference](#running-model-inference).
 
 ### Data preprocessing:
