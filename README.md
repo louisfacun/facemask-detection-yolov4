@@ -12,4 +12,4 @@ include links of:
 
 
 # Augmentation
-augment.py
+`python augment.py --input "sample_images" --output "sample_images/train/augmented/" --option 1`
