@@ -81,6 +81,9 @@ facemask_ip_camera.py
 | 1 | WM  | Wearing a Mask |
 | 2 | IWM | Improperly Waring a Mask |
 
-## Tools/libraries used
-- **LabelImg:** `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
-- **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
+## Tools and libraries used
+- **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
+- **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
+
+## Deployment
+Soon..
