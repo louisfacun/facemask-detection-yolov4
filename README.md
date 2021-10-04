@@ -5,6 +5,8 @@
 - Add colab notebook (to try training)
 - Add colab notebook (to try inference)
 - Show results with images and videos
+- Add data preprocessing python codes (resizing, conversion etc.)
+- Add inference python codes (facemask_webcam.py etc.)
 
 ## Requirements for  training and inference (either Windows or Linux):
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
