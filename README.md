@@ -55,31 +55,31 @@ or your own label similar to `classes.txt`
 - **Inference from an ip camera:** `python yolov4_ip_camera.py --input "rstp://192.168.9.1/"` 
 
 
-
-# Gather and repare your dataset, train and evaluate your own face mask detection model (guide)
-
 ## Tools/libraries
-### Data preparation:
-
+Data preparation:
 - **LabelImg:**" `gui annotation` https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
-### Data preprocessing:
+Data preprocessing:
 - **Albumentations:** `augmentation package` https://albumentations.ai/docs/getting_started/installation/ (for running our script)
 
-
-**Decide on your classes/labels**
+# Gather and repare your dataset, train and evaluate your own face mask detection model (guide)
+## 1. Decide on your classes/labels**
 | Label id | Label | Description |
 | --- | --- | --- |
 | 0 | NWM | Not wearing a mask |
 | 1 | WM  | Wearing a mask |
 | 2 | IWM | Improperly wearing a mask |
 
-## 1. Data Gathering
- Gather dataset (images/videos)
--Download images from search engine (Google, Bing etc.).
--Model your own images from friends.
--Gather and capture images (or from videos) from public places.
+## 2. Data Gathering
+**Sources:**
+- Gather dataset (images/videos)
+- Download images from search engine (Google, Bing etc.).
+- Model your own images from friends.
+- Gather and capture images (or from videos) from public places.
 
-## 2. Data Preprocessing/Preparation
+**Gather atleast 500-1000 instances (not images) per class**
+Gather some images -> annotate -> count instances -> Gather some images...
+
+## 3. Data Preprocessing/Preparation
 ### Image preprocessing
 1. Resizing
 2. 
@@ -92,8 +92,8 @@ Option 1: 100% Horizontal Flip
 Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
 Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random Noise
 ```
-## How to train a model
+## 4. Training a model
 s
 
-## How to evaluate a model
+## 5. Evaluate a model
 s
