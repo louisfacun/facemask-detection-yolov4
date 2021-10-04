@@ -60,7 +60,6 @@ facemask_image.py
 facemask_webcam.py
 facemask_video_file.py
 facemask_ip_camera.py
-
 ```
 
 ## Running the inference from different sources
