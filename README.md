@@ -19,12 +19,14 @@ To run YOLOv4 inference, you need these following files:
 **To use our files, you can download them in the following:**
 1. **facemask.weights**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
 2. **facemask.cfg**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
-You can modify this size: higher size=lower inference but more accurate, lower size=faster inference but less accurate
+- higher size = slower inference but more accurate
+- lower size = faster inference but less accurate
 ```ini
 .
 .
+# modify based on your hardware
 width=640
-height=640
+height=640 
 .
 .
 ```
@@ -43,9 +45,28 @@ WM
 IWM
 ```
 
+## Directory
+Put `facemask.weights` `facemask.cfg` `obj.data` `obj.names` in the same folder of YOLOv4. 
+```
+.
+.
+darknet
+.
+.
+facemask.weights
+facemas.cfg
+obj.data
+obj.names
+facemask_image.py
+facemask_webcam.py
+facemask_video_file.py
+facemask_ip_camera.py
+
+```
+
 ## Running the inference from different sources
 
-- **Single image:** `pythonfacemask_image.py --input "sample_images_folder/image1.jpg"` 
+- **Single image:** `python facemask_image.py --input "sample_images_folder/image1.jpg"` 
 
 - **PC webcam:** `python facemask_webcam.py`
 
