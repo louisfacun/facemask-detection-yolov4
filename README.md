@@ -33,7 +33,7 @@ Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random N
 1. Trained model: [yolov4.weights](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
 2. Config file: [yolov4.cfg](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg)
 3. Data file: 
-```
+```ini
 classes = 3
 train = data/train.txt
 valid = data/test.txt
