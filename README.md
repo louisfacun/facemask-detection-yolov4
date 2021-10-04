@@ -14,11 +14,11 @@ Make sure that the requirements above are successfully installed. You can now tr
 
 ## Model inference
 To run YOLOv4 inference, you need these following files:
-`yolov4.weights` `yolov4.cfg` `obj.data` `obj.names`
+`facemask.weights` `facemask.cfg` `obj.data` `obj.names`
 
 **To use our files, you can download them in the following:**
-1. **yolov4.weights**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
-2. **yolov4.cfg**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
+1. **facemask.weights**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights) (244 MB)
+2. **facemask.cfg**: [Download](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg) (12 KB)
 You can modify this size: higher size=lower inference but more accurate, lower size=faster inference but less accurate
 ```ini
 .
@@ -45,14 +45,15 @@ IWM
 
 ## Running the inference from different sources
 
-- **Single image:** `python yolov4_image.py --input "sample_images_folder/image1.jpg"` 
+- **Single image:** `pythonfacemask_image.py --input "sample_images_folder/image1.jpg"` 
 
-- **PC webcam:** `python yolov4_webcam.py`
+- **PC webcam:** `python facemask_webcam.py`
 
-- **Video file:** `python yolov4_video_file.py --input "sample_video_folder/video.mp4"` 
+- **Video file:** `python facemask_video_file.py --input "sample_video_folder/video.mp4"` 
 
-- **IP camera:** `python yolov4_ip_camera.py --input "rstp://192.168.9.1/"`
+- **IP camera:** `python facemask_ip_camera.py --input "rstp://192.168.9.1/"`
  
+ ## Labels
 | Label id | Label | Description |
 | --- | --- | --- |
 | 0 | NWM | Not Wearing a Mask |
