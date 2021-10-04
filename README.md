@@ -48,4 +48,14 @@ IWM
 ```
 or your own label similar to `classes.txt`
 
-## How to run inference from a single image
+### Inference from a single image
+`python yolov4_image.py --input "sample_images_folder/image1.jpg"` 
+
+### Inference from a pc webcam
+`python yolov4_webcam.py
+
+### Inference  from a video file
+`python yolov4_video_file.py --input "sample_video_folder/video.mp4"` 
+
+### Inference from an ip camera
+`python yolov4_ip_camera.py --input "rstp://192.168.9.1/"` 
