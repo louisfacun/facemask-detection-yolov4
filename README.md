@@ -24,3 +24,9 @@ Option 3: 100% Horizontal Flip, 50% Random Rotate, 50% Random Blur, 50% Random N
 ## Model training
 
 ## Model evaluation
+
+# Model inference
+1. Download our trained model: `[yolov4.weights](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.weights)` 244 mb
+2. Download `[yolov4.cfg](https://github.com/lpfacun/FaceMaskDetection_YOLOv4/releases/download/model/yolov4.cfg)`
+3. 
+## How to run inference from a single image
