@@ -3,3 +3,10 @@
 
 This repository only contains the specific file used in our undergraduate research. 
 yolov4 codes are not included in this repository
+
+include links of:
+-yolov4
+-darknet
+-albumentation
+-labelImg
+
