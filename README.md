@@ -3,13 +3,16 @@
 
 `Please note that this repository only contains the specific files used in this research.`
 ## Requirements:
-### Training and inference:
-- **Python 3:**
-- **YOLOv4:**
-- **OpenCV**
+### Training and inference (either Windows or Linux):
+Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
+- **Python 3:** https://www.python.org/downloads/
+- **YOLOv4(darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**)
+- **OpenCV** https://opencv.org/releases/ (can be installed with `GPU support` for faster calculations, not required but **recommended**)
+- **CUDA** https://developer.nvidia.com/cuda-zone (if installing the requirements above with `GPU support`)
+- **CUDA suuported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`)
 
 ### Data preprocessing:
-- **Albumentation:** `augmentation` https://albumentations.ai/docs/getting_started/installation/
+- **Albumentations:** `augmentation` https://albumentations.ai/docs/getting_started/installation/
 - **LabelImg:**" `annotation` https://github.com/tzutalin/labelImg
 
 
