@@ -87,3 +87,5 @@ facemask_ip_camera.py
 
 ## Deployment
 Soon..
+
+# How to gather and prepare your dataset, train and evaluate your own face mask detection model
