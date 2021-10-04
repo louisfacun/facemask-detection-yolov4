@@ -14,9 +14,8 @@ include links of:
 
 ## Data preprocessing
 ### Data augmentation
-To try other augmentations, check https://albumentations-demo.herokuapp.com/ and modify `apply_image_augmentations.py` and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
-
-To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
+- To try other augmentations, check https://albumentations-demo.herokuapp.com, modify `apply_image_augmentations.py` based on your options and run `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
+- To try our augmentations, run default `python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
 ```
 Option 1: 100% Horizontal Flip
 Option 2: 50% Random Rotate, 50% Random Blur, 50% Random Noise
