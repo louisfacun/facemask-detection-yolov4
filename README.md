@@ -1,7 +1,6 @@
 # Wearing of face mask detection using YOLOv4
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
-`Please note that this repository only contains the specific files used in this research.`
 ## Requirements for  training and inference (either Windows or Linux):
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
 - **Python 3:** https://www.python.org/downloads/
