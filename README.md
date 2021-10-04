@@ -11,5 +11,5 @@ include links of:
 -labelImg
 
 
-# Augmentation
-`python augment.py --input "sample_images" --output "sample_images/train/augmented/" --option 1`
+# Data augmentation
+`python data_preprocessing_tools/apply_image_augmentations.py --input "sample_images/train/" --option 1`
