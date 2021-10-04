@@ -9,8 +9,8 @@ Read https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-maco
 - **YOLOv4(darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**)
 - **OpenCV** https://opencv.org/releases/ (can be installed with `GPU support` for faster calculations, not required but **recommended**)
 - **CUDA** https://developer.nvidia.com/cuda-zone (if installing the requirements above with `GPU support`)
-- **CUDA suuported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`)
-
+- **CUDA supported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`)
+If you have successfully installed the requirements above you can now immediately jump to (Running model inference)[#running-model-inference].
 ### Data preprocessing:
 - **Albumentations:** `augmentation` https://albumentations.ai/docs/getting_started/installation/
 - **LabelImg:**" `annotation` https://github.com/tzutalin/labelImg
