@@ -50,7 +50,7 @@ Put `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names` in the sa
 ```
 .
 .
-darknet
+darknet (created after compiling darknet)
 .
 .
 facemask.weights
