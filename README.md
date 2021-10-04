@@ -1,6 +1,11 @@
 # Wearing of face mask detection using YOLOv4
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
+# TODO:
+- Add colab notebook (to try training)
+- Add colab notebook (to try inference)
+- Show results with images and videos
+
 ## Requirements for  training and inference (either Windows or Linux):
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
 - **Python 3:** https://www.python.org/downloads/
@@ -84,6 +89,7 @@ facemask_ip_camera.py
 - **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
 
 ## Deployment
-Soon..
+TODO
 
 # How to gather and prepare your dataset, train and evaluate your own face mask detection model
+TODO
