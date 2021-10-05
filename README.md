@@ -30,7 +30,7 @@ To run YOLOv4 inference, you need these following files:
 ```ini
 .
 .
-# modify based on your hardware
+# facemask.weights trained on 640x640
 width=640
 height=640 
 .
