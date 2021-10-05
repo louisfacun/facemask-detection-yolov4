@@ -2,9 +2,7 @@
 **Requirements**
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
 
-If darknet (YOLOv4) is successfully installed. 
-
-You can now try running model inference using our files:
+If darknet (YOLOv4) is successfully installed, start running model inference using our files:
 `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names`
 
 **Download the the following files for face mask detection:**
