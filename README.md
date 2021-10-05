@@ -1,4 +1,4 @@
-# Wearing of Face mask Detection Using YOLOv4
+# Wearing of Face Mask Detection Using YOLOv4
 **Requirements**
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
 
