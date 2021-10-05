@@ -1,7 +1,5 @@
-# Wearing of face mask detection using YOLOv4
-
-
-## Requirements:
+# Wearing of Face mask Detection Using YOLOv4
+**Requirements**
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
 
 If darknet (YOLOv4) is successfully installed. 
@@ -54,7 +52,7 @@ facemask_video_file.py
 facemask_ip_camera.py
 ```
 
-## Running the inference from different source
+## Running an inference from different source
 
 - **Single image:** `python facemask_image.py --input "sample_images_folder/image1.jpg"` 
 
@@ -64,6 +62,12 @@ facemask_ip_camera.py
 
 - **IP camera:** `python facemask_ip_camera.py --input "rstp://192.168.9.1/"`
  
+
+## Tools and libraries used
+- **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
+- **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
+
+ # Model info
  ## Labels
 | Label id | Label | Description | Box Color |
 | --- | --- | --- | --- |
@@ -71,6 +75,10 @@ facemask_ip_camera.py
 | 1 | WM  | Wearing a Mask | Green |
 | 2 | IWM | Improperly Wearing a Mask | Yellow |
 
-## Tools and libraries used
-- **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
-- **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
+## Dataset
+| Label | Instances | Min Dimension | Max Dimension |
+| --- | --- | --- | --- |
+| NWM | 1,006 | 14x17 | 235x265 |
+| WM  | 1,012 | 14x15 | 614x605 |
+| IWM | 1,007 | 22x53 | 559x577 |
+
