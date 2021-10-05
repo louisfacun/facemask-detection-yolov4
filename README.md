@@ -81,3 +81,20 @@ facemask_ip_camera.py
 | WM  | 1,012 | 14x15 | 614x605 |
 | IWM | 1,007 | 22x53 | 559x577 |
 
+## Results
+
+| Average inference time | mean Average Precision |
+| --- | --- |
+| 73ms | 94% |
+
+**Confusion matrix:**
+
+![image](https://user-images.githubusercontent.com/58874676/136065222-68d93f5c-cb35-4e51-b2cb-e9ea9e53bc8e.png)
+
+
+**Sample detections:**
+
+![image](https://user-images.githubusercontent.com/58874676/136065117-9915b76b-826f-4ade-8def-1853ef84bd24.png)
+
+![image](https://user-images.githubusercontent.com/58874676/136065261-19a2b070-9023-47ab-9aec-9c82a55c51f4.png)
+
