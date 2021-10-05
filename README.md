@@ -1,24 +1,11 @@
 # Wearing of face mask detection using YOLOv4
-[![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
-# TODO:
-- Add colab notebook (to try training)
-- Add colab notebook (to try inference)
-- Show results with images and videos
-- Add data preprocessing python codes (resizing, conversion etc.)
-- Add inference python codes (facemask_webcam.py etc.)
+# Model inference
+## Requirements:
+See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
 
-## Requirements for  training and inference (either Windows or Linux):
-See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos or:
-- **Python 3:** https://www.python.org/downloads/
-- **YOLOv4 (darknet):** https://github.com/AlexeyAB/darknet (can be installed with `GPU support` for faster calculations, not required but **recommended**).
-- **OpenCV** https://opencv.org/releases/ (can be installed with `GPU support` for faster calculations, not required but **recommended**).
-- **CUDA** https://developer.nvidia.com/cuda-zone (if installing the requirements above with `GPU support`).
-- **CUDA supported GPUs**:  https://developer.nvidia.com/cuda-gpus (CUDA is only for `NVIDIA GPUs`).
+Make sure that the requirements above are successfully installed. You can now try running model inference using our files:
 
-Make sure that the requirements above are successfully installed. You can now try [running model inference](#running-model-inference).
-
-## Model inference
 To run YOLOv4 inference, you need these following files:
 `facemask.weights` `facemask.cfg` `obj.data` `obj.names`
 
@@ -90,11 +77,5 @@ facemask_ip_camera.py
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 - **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
 
-## Try training and inference in Google Colab
-- link
-
 ## Deployment
-TODO
-
-# How to gather and prepare your dataset, train and evaluate your own face mask detection model
 TODO
