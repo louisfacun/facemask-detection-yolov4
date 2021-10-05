@@ -84,7 +84,7 @@ facemask_ip_camera.py
 | --- | --- | --- | --- |
 | 0 | NWM | Not Wearing a Mask | Red |
 | 1 | WM  | Wearing a Mask | Green |
-| 2 | IWM | Improperly Waring a Mask | Yellow |
+| 2 | IWM | Improperly Wearing a Mask | Yellow |
 
 ## Tools and libraries used
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
