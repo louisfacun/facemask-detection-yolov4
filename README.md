@@ -1,19 +1,17 @@
 # Wearing of face mask detection using YOLOv4
 
-# Model inference
+
 ## Requirements:
 See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
 
-Make sure that the requirements above are successfully installed. You can now try running model inference using our files:
+If darknet (YOLOv4) is successfully installed. 
 
-To run YOLOv4 inference, you need these following files:
-`facemask.weights` `facemask.cfg` `obj.data` `obj.names`
+You can now try running model inference using our files:
+`facemask.weights` `facemask.cfg` `facemask.data` `facemask.names`
 
-**Required files for inference:**
+**Download the the following files for face mask detection:**
 1. **[facemask.weights](https://github.com/lpfacun/facemask-detection-yolov4/releases/download/model/facemask.weights)** (244 MB)
 2. **facemask.cfg** (check repository)
-- higher size = slower inference but more accurate
-- lower size = faster inference but less accurate
 ```ini
 .
 .
@@ -38,7 +36,7 @@ WM
 IWM
 ```
 
-## Directory
+## Files / directory structure
 Put `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names` in the same folder of YOLOv4. 
 ```
 .
@@ -76,6 +74,3 @@ facemask_ip_camera.py
 ## Tools and libraries used
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 - **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
-
-## Deployment
-TODO
