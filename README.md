@@ -5,6 +5,7 @@ See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-
 If darknet (YOLOv4) is successfully installed, start running model inference using our files:
 `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names`
 
+## Running face mask detection
 **Download the the following files for face mask detection:**
 1. **[facemask.weights](https://github.com/lpfacun/facemask-detection-yolov4/releases/download/model/facemask.weights)** (244 MB)
 2. **facemask.cfg** (check repository)
