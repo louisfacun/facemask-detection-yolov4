@@ -87,6 +87,7 @@ facemask_ip_camera.py
 | Average inference time | mean Average Precision |
 | --- | --- |
 | 73ms | 94% |
+Using GTX 1650 Super (CUDA Enabled Inference Time)
 
 **Confusion matrix:**
 
