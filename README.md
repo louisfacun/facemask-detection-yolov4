@@ -92,7 +92,8 @@ Using GTX 1650 Super (CUDA Enabled Inference Time)
 **Confusion matrix:**
 
 ![image](https://user-images.githubusercontent.com/58874676/136065222-68d93f5c-cb35-4e51-b2cb-e9ea9e53bc8e.png)
-*None* row in the predictions means, for example, that there is 3 ground-truth of IWM that is not predicted.
+
+**None** row in the predictions means, for example, that there is **3** ground-truth of **IWM** that is not predicted.
 
 **Sample detections:**
 
