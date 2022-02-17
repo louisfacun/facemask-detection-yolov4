@@ -1,30 +1,25 @@
 # Wearing of Face Mask Detection Using YOLOv4
-## Prerequisites
-1. Install YOLOv4's darknet. See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
+This repository contains the specific files and YOLOv4 implementation we used in our research paper.
 
-If darknet (YOLOv4) is successfully installed, start running model inference using our files:
+## Prerequisites
+- To keep this repository simple we won't include the source code of YOLOv4.
+- Install YOLOv4's darknet. See YOLOv4's install guide https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos
+- If darknet (YOLOv4) is successfully installed, start running model inference using our files:
 `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names`
 
 ## How to use
-**The following files are used in this study:**
+**The following files are specific in this study:**
 1. **[facemask.weights](https://github.com/lpfacun/facemask-detection-yolov4/releases/download/model/facemask.weights)** (244 MB)
-2. **facemask.cfg** (check repository)
-```ini
-.
-.
-# facemask.weights trained on 640x640
-width=640
-height=640 
-.
-.
-```
+2. **facemask.cfg** (you can change sizes)
+https://github.com/louisfacun/facemask-detection-yolov4/blob/86405f6adbf3f0cd78844b68f4cf215a71cc8258/facemask.cfg#L4-L5
+
 3. **facemask.data** (check repository)
 ```ini
-classes = 3 # important
-train = data/train.txt # not important
-valid = data/test.txt # not important
-names = facemask.names # important
-backup = backup/ # not important
+classes = 3 
+train = data/train.txt # not required for inference
+valid = data/test.txt # not required for inference
+names = facemask.names
+backup = backup/ # not required for inference
 ```
 4. **facemask.names** (check repository)
 ```
@@ -53,16 +48,16 @@ facemask_ip_camera.py
 
 ## Running an inference from different source
 
-- **Single image:** `python facemask_image.py --input "sample_images_folder/image1.jpg"` 
+- **Single image:** `python facemask_image.py --input "<image location>"` 
 
-- **PC webcam:** `python facemask_webcam.py`
+- **PC webcam:** `python darknet_video.py`
 
-- **Video file:** `python facemask_video_file.py --input "sample_video_folder/video.mp4"` 
+- **Video file:** `python darknet_video.py --input "<video location>"` 
 
-- **IP camera:** `python facemask_ip_camera.py --input "rstp://192.168.9.1/"`
+- **IP camera:** `python darknet_video.py --input "<rstp ip>"`
  
 
-## Tools and libraries used
+## Tools and libraries we used
 - **LabelImg:** https://github.com/tzutalin/labelImg (labelling and drawing bounding boxes on images)
 - **Albumentations:** https://albumentations.ai/docs/getting_started/installation/ (applying augmentations)
 
