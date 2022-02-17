@@ -37,13 +37,11 @@ darknet (created after compiling darknet)
 .
 .
 facemask.weights
-facemas.cfg
+facemask.cfg
 facemask.data
 facemask.names
-facemask_image.py
-facemask_webcam.py
-facemask_video_file.py
-facemask_ip_camera.py
+darknet_image.py
+darknet_video.py
 ```
 
 ## Running an inference from different source
