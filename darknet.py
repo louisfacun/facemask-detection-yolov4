@@ -1,3 +1,5 @@
+# Code from https://github.com/AlexeyAB/darknet
+
 """
 Python 3 wrapper for identifying objects in images
 
