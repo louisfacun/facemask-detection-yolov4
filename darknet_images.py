@@ -1,3 +1,5 @@
+# Code from https://github.com/AlexeyAB/darknet
+
 import argparse
 import os
 import glob
