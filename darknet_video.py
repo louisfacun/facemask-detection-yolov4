@@ -1,3 +1,5 @@
+# Code from https://github.com/AlexeyAB/darknet
+
 from ctypes import *
 import random
 import os
