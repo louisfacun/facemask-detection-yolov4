@@ -37,7 +37,7 @@ darknet_video.py
 
 ## Running an inference from different source
 
-- **Single image:** `python facemask_image.py --input "<image location>"` 
+- **Single image:** `python darknet_image.py --input "<image location>"` 
 
 - **PC webcam:** `python darknet_video.py`
 
