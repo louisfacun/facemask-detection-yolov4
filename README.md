@@ -89,7 +89,7 @@ darknet_video.py
 ## Citation
 If you use our study as a reference in a scientific publication, we would appreciate citations to the following:
 
-[Object Detection Frameworks fo Real-Time, Scale-Invariant Face Mask Detection](https://github.com/louisfacun/facemask-detection-yolov4/raw/master/paper.pdf), Facun *et al.,* IJFCC vol. 11, no. 1, pp. 12-17, 2022.
+[Object Detection Frameworks fo Real-Time, Scale-Invariant Face Mask Detection](http://www.ijfcc.org/vol11/582-TD08.pdf), Facun *et al.,* IJFCC vol. 11, no. 1, pp. 12-17, 2022.
 
 ```
 @article{facun_facemask_2022,
