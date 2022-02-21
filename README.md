@@ -93,7 +93,7 @@ If you use our study as a reference in a scientific publication, we would apprec
 
 ```
 @article{facun_facemask_2022,
-    title={Object Detection Frameworks fo Real-Time, Scale-Invariant Face Mask Detection},
+    title={Object Detection Frameworks for Real-Time, Scale-Invariant Face Mask Detection},
     author={Facun, Louis Philippe B. and Baculo, Maria Jeseca C. and Libao, Marlon F.
             and Eisma, Ceazar M. and Fredeluces, Christian B. and Garlejo, Rigzor A.
             and Idio, Raymart S.},
