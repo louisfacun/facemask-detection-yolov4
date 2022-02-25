@@ -11,13 +11,13 @@ This repository contains the specific files and YOLOv4 implementation we used in
 **The following files are specific in this study:**
 1. **[facemask.weights](https://github.com/lpfacun/facemask-detection-yolov4/releases/download/model/facemask.weights)** (244 MB)
 2. **facemask.cfg**
-https://github.com/louisfacun/facemask-detection-yolov4/blob/86405f6adbf3f0cd78844b68f4cf215a71cc8258/facemask.cfg#L4-L5
+https://github.com/LouisFacun/facemask-detection-yolov4/blob/86405f6adbf3f0cd78844b68f4cf215a71cc8258/facemask.cfg#L4-L5
 
 3. **facemask.data**
-https://github.com/louisfacun/facemask-detection-yolov4/blob/a4cd233d80ee2b6c9b4051336f96b2f9157f2d69/facemask.data#L1-L2
+https://github.com/LouisFacun/facemask-detection-yolov4/blob/a4cd233d80ee2b6c9b4051336f96b2f9157f2d69/facemask.data#L1-L2
 
 4. **facemask.names**
-https://github.com/louisfacun/facemask-detection-yolov4/blob/d8098beae0e1935bfb1da0405eaf7624970d305c/facemask.names#L1-L3
+https://github.com/LouisFacun/facemask-detection-yolov4/blob/d8098beae0e1935bfb1da0405eaf7624970d305c/facemask.names#L1-L3
 
 ## Files and directory structure
 Put `facemask.weights` `facemask.cfg` `facemask.data` `facemask.names` in the same folder of compiled YOLOv4's darknet. 
